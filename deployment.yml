@@ -31,7 +31,7 @@ spec:
   ports:
   - port: 8001
     protocol: TCP
-    targetPort: 8000
+    targetPort: 8001
     nodePort: 32121
   selector:
     app: helloworld
