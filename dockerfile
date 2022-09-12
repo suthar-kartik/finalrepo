@@ -1,8 +1,6 @@
 FROM node:16 
-RUN mkdir -p /home/app
-COPY ./* /home/app/
-WORKDIR /home/app
-COPY package*.json ./ 
+WORKDIR /home/ubuntu/project
+COPY package*.json ./
 RUN npm install
 COPY . . 
 EXPOSE 8000
