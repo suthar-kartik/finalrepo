@@ -1,5 +1,7 @@
 FROM node:16 
-WORKDIR /home/ubuntu/project 
+RUN mkdir -p /home/app
+COPY ./* /home/app/
+WORKDIR /home/app
 COPY package*.json ./ 
 RUN npm install
 COPY . . 
