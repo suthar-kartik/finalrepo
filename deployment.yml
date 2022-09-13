@@ -18,7 +18,7 @@ spec:
     spec: 
       containers:
       - name: helloworld
-        image: kartiksuthar811/nodejs-helloworld:latest
+        image: https://hub.docker.com/repository/docker/kartiksuthar811/nodejs-helloworld
         imagePullPolicy: Always
         ports:
         - containerPort: 8000
