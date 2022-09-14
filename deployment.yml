@@ -17,7 +17,7 @@ spec:
         app: helloworld
     spec: 
       containers:
-      - name: helloworld
+      - name: minikube
         image: kartiksuthar811/nodejs-helloworld
         imagePullPolicy: Always
         ports:
